@@ -5,7 +5,8 @@
 
 A flutter library to show images from the internet and keep them in the cache directory.
 
-
+> **Note**
+> This is a fork of the original repository that simply doesn't rethrow errors if there is a listener, causing less debugging pain and reducing potential error log pollution. There is a more proper PR that will allow for passing a custom error listener [here](https://github.com/Baseflow/flutter_cached_network_image/pull/777).
 
 ## Sponsors 
  <a href="https://getstream.io/chat/flutter/tutorial/?utm_source=Github&utm_medium=Github_Repo_Content_Ad&utm_content=Developer&utm_campaign=Github_Jan2022_FlutterChat&utm_term=renefloor" target="_blank"><img width="250px" src="https://stream-blog.s3.amazonaws.com/blog/wp-content/uploads/fc148f0fc75d02841d017bb36e14e388/Stream-logo-with-background-.png"/></a><br/><span><a href="https://getstream.io/chat/flutter/tutorial/?utm_source=Github&utm_medium=Github_Repo_Content_Ad&utm_content=Developer&utm_campaign=Github_Jan2022_FlutterChat&utm_term=renefloor" target="_blank">Try the Flutter Chat Tutorial 💬</a></span>
